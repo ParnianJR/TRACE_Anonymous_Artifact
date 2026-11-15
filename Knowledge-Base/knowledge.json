@@ -1,0 +1,552 @@
+[
+    {
+        "id": "basic_information",
+        "title": "Getting Started: What is this study about",
+        "summary": "This section covers the basics: what the study is trying to do, who can take part, what information you can share, whether participation is optional, and how your privacy is protected.",
+        "tags": ["overview", "purpose", "study goal", "eligibility", "who can participate", "data collected", "anonymized CV", "optional data", "demographics", "fairness", "bias", "discrimination monitoring", "voluntary participation", "study duration", "privacy safeguards", "automated hiring system", "AHS"],
+        "visible": true,
+        "parentId": null,
+        "suggestedQuestion": "What key aspects does the study overview cover?"
+    },
+            
+    {
+        "id": "study_objectives",
+        "title": "What is the study objective?",
+        "summary": "This study looks at whether automated hiring systems treat everyone fairly. By examining anonymized CVs and comparing how the system responds to different groups of people, researchers can spot patterns of bias in the algorithm's decisions. The goal is to push hiring technology towards being more transparent and accountable.",
+        "tags": ["objective", "study", "goal","fairness", "algorithmic decision-making", "transparent", "accountable", "automated hiring systems", "comparison", "outcomes", "anonymized CVs", "groups", "bias"],
+        "visible": true,
+        "parentId": "basic_information",
+        "suggestedQuestion": "What is the objective of the study?"
+    },
+    {
+        "id": "who_can_participate",
+        "title": "Who can participate?",
+        "summary": "Residents of EEA countries or Switzerland who are part of the labor force are invited to participate.",
+        "tags": ["participation", "EEA countries", "Switzerland", "labor force"],
+        "visible": true,
+        "parentId": "basic_information",
+        "suggestedQuestion": "Who can participate in the study?"
+    },
+    {
+        "id": "what_data_is_collected",
+        "title": "What data is collected?",
+        "summary": "We collect an anonymized version of your CV, which should not include any identifying information such as your name, address, phone number, email, or photo. If you choose, you may also provide optional sensitive personal information (such as age or gender) to help assess fairness across groups.",
+        "tags": ["data collection", "anonymized CV", "identifying information", "optional sensitive personal information", "fairness across groups"],
+        "visible": true,
+        "parentId": "basic_information",
+        "suggestedQuestion": "What data is collected in the study?"
+    },
+    {
+        "id": "optional_personal_information",
+        "title": "What optional personal information may I provide?",
+        "summary": "You may optionally provide age, gender, sexual orientation, whether your gender differs from that assigned at birth, ethnic/cultural background, religion/belief, and disability status. These optional data help researchers assess whether automated hiring systems may discriminate against certain groups.",
+        "tags": ["optional personal information", "personal information", "age", "gender", "sexual orientation", "gender identity", "ethnic/cultural background", "religion/belief", "disability status","sensitive data","protected characteristics"],
+        "visible": true,
+        "parentId": "basic_information",
+        "suggestedQuestion": "What optional personal information may I provide in the study?"
+    },
+    {
+        "id": "general_risks_and_benefits",
+        "title": "What are the general risks and benefits of participating?",
+        "summary": "We understand that the project has both benefits and risks for participants. The risk is to be re-identified as part of minority groups from anonymized CVs, even though strong protections are in place. The main benefit, on the other hand, is contributing to research aimed at detecting and mitigating discrimination in automated hiring systems.",
+        "tags": ["risks", "benefits", "participation", "re-identification", "anonymized CVs", "minority groups", "discrimination", "automated hiring systems", "detection", "mitigation"],
+        "visible": true,
+        "parentId": "basic_information",
+        "suggestedQuestion": "What are the general risks and benefits of participating in the study?"
+    },
+    {
+        "id": "is_participation_voluntary",
+        "title": "Is participation voluntary?",
+        "summary": "Yes. Sharing your data is completely voluntary, and choosing not to participate will not affect you in any way.",
+        "tags": ["voluntary", "participation", "data sharing", "choice","voluntary participation", "effect"],
+        "visible": true,
+        "parentId": "basic_information",
+        "suggestedQuestion": "Is participation voluntary in the study?"
+    },
+    {
+      "id": "ethics_approval",
+      "title": "Has this study been approved by an ethics committee?",
+      "summary": "Yes. The Institutional Review Board (IRB) of [Anonymized Institution B] reviews research projects to ensure they comply with ethical standards. The approval confirms that the study meets established ethical standards for research involving personal data.",
+      "tags": ["ethics approval", "IRB", "ethics committee", "research ethics"],
+      "visible": true,
+      "parentId": "basic_information",
+      "suggestedQuestion": "Has this study been approved by an ethics committee or Institutional Review Board (IRB)?"
+    },
+    {
+        "id": "data_governance_practices",
+        "title": "Your Privacy: How we handle your data",
+        "summary": "Overview of data governance practices covering participant rights, data retention, consent revocation, withdrawal, storage locations, and model ownership.",
+        "tags": ["data governance", "participant rights", "data retention", "consent revocation", "withdrawal", "storage locations", "model ownership"],
+        "visible": true,
+        "parentId": null,
+        "suggestedQuestion": "What are the data governance practices in the study?"
+    },
+    {
+      "id": "participant_rights",
+      "title": "What are my rights regarding my donated data?",
+      "summary": "You are in control. You can choose whether to participate, withdraw at any time, ask to see the data you provided, request corrections, or ask for it to be deleted. All of these rights are guaranteed under GDPR, and using any of them will have no negative effect on you.\n\nTo exercise any of these rights, contact: [anonymized contact email]",
+      "tags": ["participant rights", "voluntary choice", "access request", "data correction", "data deletion", "consent withdrawal", "GDPR compliance", "rights protection"],
+      "visible": true,
+      "parentId": "data_governance_practices",
+      "suggestedQuestion": "What are my rights regarding my donated data?"
+    },
+    {
+        "id": "data_retention",
+        "title": "How long will my data be kept?",
+        "summary": "Your data will be stored only for as long as the study requires. The research period ends on March 30, 2031, at which point all data will be deleted. No data is kept beyond what is needed to conduct the fairness analysis.",
+        "tags": ["data retention", "duration", "end date", "research period"],
+        "visible": true,
+        "parentId": "data_governance_practices",
+        "suggestedQuestion": "How long will data be retained?"
+    },
+    {
+      "id": "withdraw_from_participation",
+      "title": "Can I withdraw from the study, and what happens when I do?",
+      "summary": "Yes, at any time and for any reason. Once you withdraw, your stored data — your CV and any personal information you shared — will be deleted and will no longer be used for fairness monitoring.\n\nOne important clarification: withdrawal stops all future use of your data. Aggregated fairness statistics that were already calculated before you withdrew cannot be retroactively removed, since they contain no information that identifies you individually.\n\nTo withdraw, contact: [anonymized contact email]",
+      "tags": ["withdrawal", "participation withdrawal", "data deletion", "fairness monitoring", "revoke consent", "consent revocation"],
+      "visible": true,
+      "parentId": "data_governance_practices",
+      "suggestedQuestion": "Can I withdraw from the study, and what happens when I do?"
+    },
+    {
+      "id": "data_storage",
+      "title": "Where is my data stored?",
+      "summary": "Your data is stored in two separate places, depending on what type it is.\n\nYour CV is stored by the organization running the hiring system (the model owner), with all identifying details — such as your name or contact information — removed before storage. In this form, it cannot be traced back to you.\n\nAny sensitive personal details you choose to share — such as your gender or ethnic background — are never seen or stored by the model owner in their original form. Instead, when you donate them, they are immediately split into two random-looking numerical pieces called secret shares by the trusted third party. One piece is sent to the model owner, and the other is kept by the trusted third party, [Anonymized Institution B]. Each piece looks like a meaningless number and reveals nothing about your actual attribute on its own. Your raw sensitive attribute exists only briefly, during the donation step on the trusted third party's system, and is discarded immediately after the two pieces are generated. Neither organization ever holds your actual sensitive attribute.",
+      "tags": ["data storage", "model owner", "trusted third party", "secret shares", "data separation", "data protection"],
+      "visible": true,
+      "parentId": "data_governance_practices",
+      "suggestedQuestion": "Where is my data stored?"
+   },
+    {
+        "id": "cv_storage",
+        "title": "Where is my CV stored?",
+        "summary": "Your CV is stored by the organization running the hiring system (the model owner) in readable form — meaning it is not scrambled or split. However, all identifying details such as your name, email address, phone number, and home address will have been removed by you before upload. Because of this, the stored CV cannot be linked back to you as a person.",
+        "tags": ["CV storage", "model owner", "anonymization", "data protection"],
+        "visible": true,
+        "parentId": "data_governance_practices",
+        "suggestedQuestion": "Where is my CV stored?"
+    },
+    {
+      "id": "personal_information_storage",
+      "title": "Where is my personal information stored?",
+      "summary": "Your sensitive attributes — such as your gender or ethnic background — are never stored in their original form by anyone. Instead, they are immediately split into two random-looking numerical pieces called secret shares. One piece is stored by the model owner, the other by the trusted third party ([Anonymized Institution B]). Each piece looks like a meaningless number on its own. Neither organization can read your actual attribute or reconstruct it from their piece alone.",
+      "tags": ["personal information storage", "model owner", "trusted third party", "secret shares", "data separation", "data protection"],
+      "visible": true,
+      "parentId": "data_governance_practices",
+      "suggestedQuestion": "Where is my personal information stored?"
+   },
+    {
+      "id": "model_owner",
+      "title": "What is the model owner?",
+      "summary": "The model owner is the organization that builds and runs the hiring system being studied. They store your anonymized CV — your CV with all identifying details such as your name, email address, and phone number removed — in readable form. They also store one of the two numerical pieces of your sensitive attributes (such as your gender or ethnic background), but this piece looks like a random number and reveals nothing on its own. They never have access to your actual sensitive attributes. They work together with the trusted third party to calculate fairness metrics, without either party ever seeing your raw sensitive attributes. Our model owner is [Anonymized Institution A].",
+      "tags": ["model owner", "organization", "hiring system", "anonymized CV", "secret shares", "sensitive attributes", "fairness metrics", "joint computation"],
+      "visible": true,
+      "parentId": "data_governance_practices",
+      "suggestedQuestion": "What is the model owner?"
+    },
+    {
+        "id": "trusted_third_party",
+        "title": "What is the trusted third party?",
+        "summary": "The trusted third party is an independent organization — [Anonymized Institution B] — that securely holds and processes the second encrypted piece of your personal data. Like the model owner, they never have access to your raw sensitive information. They collaborate with the model owner to calculate fairness results, without reconstructing your sensitive attributes-such as your gender or ethnic background- at any point.",
+        "tags": ["trusted third party", "TTP", "independent organization", "fairness monitoring", "encrypted secret shares", "sensitive personal information", "joint computation"],
+        "visible": true,
+        "parentId": "data_governance_practices",
+        "suggestedQuestion": "What is the trusted third party?"
+    },
+    {
+        "id": "data_sharing",
+        "title": "Is data shared outside the involved parties?",
+        "summary": "No. Your data is never shared with anyone outside the model owner and the trusted third party. Only these two parties handle the encrypted or anonymized components, and no raw personal information is passed to any external organization.",
+        "tags": ["data sharing", "model owner", "trusted third party", "TTP", "external organization", "sharing", "disclosure"],
+        "visible": true,
+        "parentId": "data_governance_practices",
+        "suggestedQuestion": "Is data shared outside the involved parties?"
+    },
+    {
+      "id": "who_anonymizes_my_data",
+      "title": "Who is responsible for anonymizing my data?",
+      "summary": "Anonymization is a shared responsibility between you and the system, and it works differently for your CV versus your sensitive personal details.\n\nFor your CV, you are the first and most important step. Before uploading, you will receive clear instructions on which identifying details to remove — such as your name, email address, phone number, or home address. We also offer an optional tool that runs entirely on your own device, without sending anything anywhere, to help you catch anything you may have missed. Once you have removed those details, you upload the CV to the model owner's system, where it is stored in that anonymized form.\n\nFor your sensitive personal details — such as your gender or ethnic background — the process is different and more protective. You enter these details directly on a secure page operated by the trusted third party, [Anonymized Institution B]. The model owner never sees this page or your raw answers. The moment you submit, [Anonymized Institution B] immediately splits each attribute into two random-looking numerical pieces and discards your original answer. One piece is sent to the model owner; the other stays with [Anonymized Institution B]. Neither piece resembles your original data, and neither party can make sense of their piece alone.\n\nWhen fairness statistics need to be calculated, the two parties briefly and automatically combine their pieces — but only inside a controlled computation, and only for that purpose. Your raw sensitive data is never stored by anyone in its original form at any point.",
+      "tags": ["anonymization", "cv upload", "data protection", "secret shares", "trusted third party", "privacy protection"],
+      "visible": true,
+      "parentId": "data_governance_practices",
+      "suggestedQuestion": "Who is responsible for anonymizing my data before and after uploading it?"
+    },
+    {
+      "id": "data_linkage_policy",
+      "title": "Will my CV be linked to other datasets?",
+      "summary": "No. We will not link your CV to any external datasets.\n\nThis means we will not combine your donated CV with information from sources such as LinkedIn, public profiles, commercial databases, or other external data sources.\n\nThe study will only use the information that you choose to donate. No additional information about you will be collected, added, or inferred from outside sources.",
+      "tags": ["data linkage", "external datasets", "linkedin", "public profiles", "data usage policy", "privacy"],
+      "visible": true,
+      "parentId": "data_governance_practices",
+      "suggestedQuestion": "Will my CV be linked to external datasets or profiles?"
+    },
+    {
+        "id": "data_use_and_benefits",
+        "title": "Making a Difference: Why your donation matters",
+        "summary": "Why support algorithmic fairness in automated hiring and how donations help; benefits for job seekers.",
+        "tags": ["data use", "benefits", "fairness", "automated hiring", "donation", "job seeker", "impact"],
+        "visible": true,
+        "parentId": null,
+        "suggestedQuestion": "Why is this worth supporting and what good does it do?"
+    },
+    {
+      "id": "fairness_monitoring",
+      "title": "What is fairness monitoring?",
+      "summary": "When a company uses an Automated Hiring System (AHS) to help sort or rank job applicants, that system learns from historical data — and historical data often reflects past biases. For example, if a system was trained mostly on CVs of people who were successfully hired in the past, and those people were predominantly from a particular gender or ethnic background, the system may have quietly learned to favour similar profiles, even when that was never anyone's intention.\n\nFairness monitoring is the process of checking whether this is happening. It works by systematically measuring how the system treats different groups of people — for example, whether women and men with similar qualifications are ranked similarly, or whether candidates from different ethnic backgrounds get comparable visibility at the top of the list.\n\nThe goal is not to interfere with individual hiring decisions, but to shine a light on patterns that might otherwise go unnoticed — and to give hiring organizations the evidence they need to make their systems more transparent, accountable, and fair.",
+      "tags": ["fairness monitoring", "systematic", "data-driven", "evaluation", "automated hiring systems", "AHS", "fairness", "transparency", "accountability", "equitability", "bias", "historical data"],
+      "visible": true,
+      "parentId": "data_use_and_benefits",
+      "suggestedQuestion": "What is fairness monitoring?"
+    },
+    {
+      "id": "how_fairness_monitoring_is_operated",
+      "title": "How is fairness monitoring operated?",
+      "summary": "In practice, fairness monitoring works by feeding anonymized CVs into the hiring system and observing what it does with them — just as it would with any real job application. The system produces outputs such as a ranked list of candidates, indicating who it considers more or less suitable for a given role.\n\nResearchers then look at those outputs through the lens of the sensitive attributes donors have optionally shared. For example: among all the candidates the system ranked in the top 10, how many were women and how many were men? Does that reflect the actual makeup of the applicant pool, or is one group consistently pushed to the bottom?\n\nBy repeating this kind of comparison across many CVs and different groups — based on gender, ethnic background, age, and so on — researchers can detect whether the system is systematically disadvantaging any particular group. No individual result is ever reported; only the overall patterns matter.",
+      "tags": ["fairness monitoring", "automated hiring systems", "decision-making patterns", "group treatment", "unfair disadvantage", "treatment comparison", "ranking", "sensitive attributes"],
+      "visible": true,
+      "parentId": "fairness_monitoring",
+      "suggestedQuestion": "How is fairness monitoring operated?"
+    },
+    {
+      "id": "how_will_my_data_be_used_in_general",
+      "title": "How will my data be used in general?",
+      "summary": "Your data will be used for one purpose only: to check whether automated hiring systems treat different groups of people fairly. It will never be used to train or improve any AI model, and it will never be used to make decisions about you as an individual, to build a profile of you, or for any purpose beyond what you have explicitly consented to.\n\nSpecifically, your anonymized CV will be fed into a research prototype of an automated hiring system — not a live system making real hiring decisions — solely to evaluate whether it produces fair outcomes across different groups of people.",
+      "tags": ["data use", "fairness metrics", "bias detection", "no profiling", "purposes"],
+      "visible": true,
+      "parentId": "data_use_and_benefits",
+      "suggestedQuestion": "How will my data be used in general?"
+    },
+    {
+      "id": "how_will_my_data_be_processed_for_fairness_monitoring",
+      "title": "How will my data be processed for fairness monitoring?",
+      "summary": "Your anonymized CV is fed into the Automated Hiring System as if it were a real application, and the system produces an output — for example, a ranking. The sensitive attributes you optionally share, such as your age or gender, are then used to check whether the system responded differently to candidates from different groups. Together, these two pieces of information allow researchers to assess whether the system's decisions are fair.",
+      "tags": ["data processing", "fairness monitoring", "anonymized CV", "sensitive attributes"],
+      "visible": true,
+      "parentId": "how_will_my_data_be_used_in_general",
+      "suggestedQuestion": "How will my data be processed for fairness monitoring?"
+    },
+    {
+        "id": "which_fairness_metrics_are_used",
+        "title": "Which fairness metrics are used?",
+        "summary": "We use metrics including demographic parity (are groups selected at similar rates?), equal opportunity (do qualified people from each group get similar chances?), top-k fairness (are different groups fairly represented among the top k candidates in a ranking?), and group exposure (do groups get fair exposure in top rankings?) to reveal fairness issues.",
+        "tags": ["fairness metrics", "demographic parity", "equal opportunity", "top-k fairness", "group exposure","ranking fairness"],
+        "visible": true,
+        "parentId": "data_use_and_benefits",
+        "suggestedQuestion": "Which fairness metrics are used?"
+    },
+    {
+        "id": "demographic_parity",
+        "title": "What is demographic parity in fairness metrics?",
+        "summary": "Demographic parity checks whether different groups are selected (e.g., interviewed or hired) at similar rates, regardless of qualifications.",
+        "tags": ["demographic parity", "selection rates", "group equality", "fair interview rates", "hiring fairness"],
+        "visible": true,
+        "parentId": "which_fairness_metrics_are_used",
+        "suggestedQuestion": "What is demographic parity?"
+    },
+    {
+        "id": "demographic_parity_example",
+        "title": "Can you provide an example of demographic parity?",
+        "summary": "If 50% of women and 50% of men who applied are hired, the hiring decision satisfies demographic parity. If 30% of women but 60% of men are hired, the system does not satisfy demographic parity.",
+        "tags": [],
+        "visible":true,
+        "parentId": "which_fairness_metrics_are_used",
+        "suggestedQuestion": "Can you give me an example of demographic parity?"
+    },  
+    {
+        "id": "equal_opportunity",
+        "title": "What is equal opportunity in fairness metrics?",
+        "summary": "Equal opportunity checks whether qualified people from different groups receive positive outcomes (such as getting an interview or job offer) at similar rates.",
+        "tags": ["equal opportunity", "qualified candidates", "fairness", "outcome parity", "group comparison"],
+        "visible": true,
+        "parentId": "which_fairness_metrics_are_used",
+        "suggestedQuestion": "What is equal opportunity?"
+    },
+    {
+        "id": "equal_opportunity_example",
+        "title": "Can you provide an example of equal opportunity?",
+        "summary": "Suppose 80 qualified women and 150 qualified men applied. If 50 of the qualified women (62.5%) and 100 of the qualified men (66.7%) are hired, men have a slightly higher chance. If the difference is large, the system may violate equal opportunity.",
+        "tags": ["equal opportunity", "interview rate parity", "gender fairness example", "qualified candidates", "group comparison"],
+        "visible": true,
+        "parentId": "which_fairness_metrics_are_used",
+        "suggestedQuestion": "Can you give me an example of equal opportunity?"
+    },
+    {
+      "id": "what_is_top_k_fairness",
+      "title": "What is top-k fairness in fairness metrics?",
+      "summary": "Top-k fairness checks whether different groups are fairly represented among the highest-ranked candidates — the positions at the top of the list that recruiters tend to look at most.",
+      "tags": ["top-k fairness", "ranking fairness", "representation", "fair ranking", "group exposure"],
+      "visible": true,
+      "parentId": "which_fairness_metrics_are_used",
+      "suggestedQuestion": "What is top-k fairness?"
+    },
+    {
+        "id": "top_k_fairness_example",
+        "title": "Can you provide an example of top-k fairness?",
+        "summary": "A ranking shows: man, man, woman, woman, woman. If we focus on the top 3, there are 2 men and 1 woman. But in the overall pool, there are 2 men and 3 women. Women make up 60% of the pool but only 33% of the top 3, indicating that women are underrepresented among top candidates.",
+        "tags": ["top-k fairness", "ranking fairness", "representation", "group comparison", "gender representation"],
+        "visible": true,
+        "parentId": "which_fairness_metrics_are_used",
+        "suggestedQuestion": "Can you give me an example of top-k fairness?"
+    },
+    {
+        "id": "what_is_group_exposure",
+        "title": "What is group exposure in fairness metrics?",
+        "summary": "Group exposure refers to how much attention or opportunity members of different groups receive in contexts like rankings or recommendations. Fair group exposure means each group is seen or considered at similar rates.",
+        "tags": ["group exposure", "exposure fairness", "ranking fairness", "attention allocation", "exposure parity"],
+        "visible": true,
+        "parentId": "which_fairness_metrics_are_used",
+        "suggestedQuestion": "What is group exposure?"
+    },
+    {
+        "id": "group_exposure_example",
+        "title": "Can you provide an example of group exposure?",
+        "summary": "Suppose a list of profiles is shown to users. If profiles from group A often appear near the top and are more likely to be seen, group A gets more exposure. If profiles from group B are mostly at the bottom and rarely seen, group B gets less exposure. Fairness metrics can check whether all groups get similar chances of exposure.",
+        "tags": ["group exposure", "exposure fairness example", "recommendation fairness", "ranking exposure", "visibility parity"],
+        "visible": true,
+        "parentId": "which_fairness_metrics_are_used",
+        "suggestedQuestion": "Can you give me an example of group exposure?"
+    },
+    {
+        "id": "why_personal_data_needed",
+        "title": "Why is my personal data needed?",
+        "summary": "Your personal data (such as age and gender) is needed so that we can understand how different groups are treated by automated hiring systems. By comparing outcomes across groups, we can detect potential bias and assess whether the system is fair.",
+        "tags": ["personal data", "bias detection", "group comparison", "fairness assessment"],
+        "visible": true,
+        "parentId": "data_use_and_benefits",
+        "suggestedQuestion": "Why is my personal data needed?"
+    },
+    {
+        "id": "why_is_my_cv_needed",
+        "title": "Why is my CV needed?",
+        "summary": "Your CV helps us understand how the hiring model ranks or evaluates candidates in a realistic way. By analyzing the output of the hiring system that processes anonymized CVs, we can test whether the system treats different applicants fairly.",
+        "tags": ["CV", "anonymized CVs", "ranking fairness", "group treatment"],
+        "visible": true,
+        "parentId": "data_use_and_benefits",
+        "suggestedQuestion": "Why is my CV needed?"
+      },
+      {
+        "id": "benefits_of_donating_data",
+        "title": "What are the benefits of donating my data?",
+        "summary": "By donating your data, you help reveal whether hiring algorithms treat different groups fairly, which benefits both current and future job seekers. It supports research that can lead to fairer, more inclusive recruitment practices. It also helps shape better industry standards and policies that promote fair hiring for everyone.",
+        "tags": ["data donation","benefits", "fair group treatment", "algorithm fairness"],
+        "visible": true,
+        "parentId": "data_use_and_benefits",
+        "suggestedQuestion": "What are the benefits of donating my data?"
+      },
+      {
+        "id": "benefits_for_myself",
+        "title": "What are the benefits of donating my data for myself?",
+        "summary": "Donating your data cannot guarantee better outcomes for you personally. However, it helps make hiring systems more transparent and fair — including for people with similar backgrounds to yours. Your contribution helps bring hidden biases to light, supporting research that works to reduce discrimination and improve equity in hiring over time.",
+        "tags": ["benefit for myself", "self impact", "bias discovery", "equity improvement", "no personal advantage"],
+        "visible": true,
+        "parentId": "benefits_of_donating_data",
+        "suggestedQuestion": "What are the benefits of donating my data for myself?"
+      },
+      {
+        "id": "fairness_results_reporting",
+        "title": "How are fairness monitoring results reported?",
+        "summary": "Fairness monitoring results are reported only in aggregated form, never at the individual level. No personal details or individual outcomes are ever revealed in these reports.\n\nResults will be published as part of academic research, meaning they will be made publicly available. The model owner will also receive the findings directly, so they can see how their system performed.\n\nIf bias is detected, the study does not have the authority to force the model owner to change their system. However, the findings can be shared with regulators, advocacy groups, or the public to create pressure for change.\n\nYou are welcome to ask for a summary of the published findings by contacting [anonymized contact email].\n\nNote: aggregated fairness statistics that were calculated before you withdrew cannot be deleted, since they contain no information that identifies you individually. However, these statistics will never be linked back to you in any report.",
+        "tags": ["aggregated reporting", "privacy", "fairness results", "group level reports", "no individual data"],
+        "visible": true,
+        "parentId": "data_use_and_benefits",
+        "suggestedQuestion": "How are fairness monitoring results reported?"
+      },
+      {
+        "id": "Data_risks_and_protection",
+        "title": "Safety Measures: How we keep your data secure",
+        "summary": "As with any data collection, there is a small risk of unauthorized access or re-identification, even though strong protections are in place. Your CV is anonymized before storage, and your sensitive personal attributes are split into two random-looking numerical pieces held by two separate parties, so neither can access your actual data alone. These measures make the likelihood of misuse or exposure very low.",
+        "tags": ["data risks", "re-identification", "anonymized CV", "secret shares"],
+        "visible": true,
+        "parentId": null,
+        "suggestedQuestion": "What are the risks to my data?"
+      },
+      {
+        "id": "why_data_needs_protection",
+        "title": "Why does my data need protection?",
+        "summary": "Some of the information you may choose to share — such as your sexual orientation or ethnic background — is deeply personal and could cause harm if misused or if it allowed someone to identify you. Protecting this data is also a legal requirement under the GDPR, which sets strict rules for handling sensitive personal information. Strong safeguards — including anonymization, secret sharing, and Multi-Party Computation (MPC) — ensure that no one can link the data back to you.",
+        "tags": ["data protection", "sensitive data", "GDPR", "anonymization", "secret sharing", "multi-party computation", "mpc"],
+        "visible": true,
+        "parentId": "Data_risks_and_protection",
+        "suggestedQuestion": "Why does my data need protection?"
+     },
+      {
+        "id": "privacy_protection_general",
+        "title": "How is my privacy protected in general?",
+        "summary": "Because fairness monitoring relies on sensitive personal data, it must be conducted in full compliance with GDPR. We use a combination of anonymization, secret sharing, and Multi-Party Computation (MPC) to ensure that the fairness analysis can be carried out without ever exposing who the data donors are.",
+        "tags": ["privacy", "GDPR", "anonymization", "secret sharing", "multi-party computation", "mpc", "fairness monitoring"],
+        "visible": true,
+        "parentId": "Data_risks_and_protection",
+        "suggestedQuestion": "How is my privacy protected in general?"
+      },
+      {
+        "id": "impact_of_breaches",
+        "title": "What is the impact of breaches?",
+        "summary": "A data breach could theoretically put sensitive information at risk. However, because your CV is anonymized and your sensitive attributes are split into two separate pieces held by independent organizations, re-identifying you would be extremely difficult. Since no single party holds your complete raw data, the impact of any breach on you personally would be very limited.",
+        "tags": ["data breach impact", "anonymization protection", "distributed storage", "secret shares"],
+        "visible": true,
+        "parentId": "Data_risks_and_protection",
+        "suggestedQuestion": "What is the impact of breaches?"
+      },
+      {
+        "id": "anonymization_definition",
+        "title": "What is anonymization?",
+        "summary": "Anonymization means removing or modifying personal details so that the data can no longer be linked back to an individual. This typically involves deleting identifiers such as names, contact information, or ID numbers, and sometimes transforming other details to prevent re-identification. Once anonymized, the data can be used for analysis without exposing who the person is.",
+        "tags": ["anonymization", "privacy", "data protection", "de-identification"],
+        "visible": true,
+        "parentId": "Data_risks_and_protection",
+        "suggestedQuestion": "What is anonymization?"
+      },
+      {
+        "id": "anonymization_protects_data",
+        "title": "How does anonymization protect my data?",
+        "summary": "Anonymization protects your data by removing anything that could identify you, so the information can no longer be linked back to you as a person. Even if the data is accessed or analyzed, it cannot reveal who you are. This reduces privacy risks while still allowing the data to be used for fairness monitoring.",
+        "tags": ["anonymization", "data protection", "re-identification", "fairness monitoring"],
+        "visible": true,
+        "parentId": "anonymization_definition",
+        "suggestedQuestion": "How does anonymization protect my data?"
+      },
+      {
+        "id": "residual_risks_anonymization",
+        "title": "What are the residual risks of anonymization?",
+        "summary": "Even with identifying details removed, there is a small chance that someone could piece together who you are by combining your data with information from elsewhere. Certain combinations of skills, experience, and personal characteristics can still make a profile distinctive. To guard against this, any sensitive personal attributes you choose to share are additionally protected by being split into two random-looking numerical pieces held by two independent parties, so no single party can see or reconstruct your actual data.",
+        "tags": ["anonymization", "residual risk", "secret shares", "re-identification"],
+        "visible": true,
+        "parentId": "anonymization_definition",
+        "suggestedQuestion": "What are the residual risks of anonymization?"
+      },
+      {
+        "id": "encryption_definition",
+        "title": "What is encryption?",
+        "summary": "Encryption is a method of protecting data by transforming it into a coded form that cannot be read without a special key. Only someone with the correct key can unlock and understand the original information. This ensures that even if the data is accessed, it stays unreadable.",
+        "tags": ["encryption", "data protection", "privacy", "security"],
+        "visible": true,
+        "parentId": "Data_risks_and_protection",
+        "suggestedQuestion": "What is encryption?"
+      },
+      {
+        "id": "encryption_protects_data",
+        "title": "How does encryption protect my data?",
+        "summary": "Encryption converts your data into an unreadable coded form. Even if someone gains access to it, they cannot make sense of it without the decryption key. This means the data remains protected and reveals nothing sensitive on its own.",
+        "tags": ["encryption", "data protection", "cryptography"],
+        "visible": true,
+        "parentId": "encryption_definition",
+        "suggestedQuestion": "How does encryption protect my data?"
+      },
+      {
+      "id": "residual_risks_encryption",
+      "title": "What are the residual risks of encryption?",
+      "summary": "Even strong encryption carries a small residual risk: if a single party's server were compromised and both the encrypted data and its decryption key were exposed at the same time, your data could potentially be read. To reduce this risk further, we split your sensitive attributes into two pieces held by independent parties. This means no single party ever has enough information to reconstruct your actual attribute on their own.",
+      "tags": ["encryption", "residual risk", "data protection", "secret sharing"],
+      "visible": true,
+      "parentId": "encryption_definition",
+      "suggestedQuestion": "What are the residual risks of encryption?"
+      },
+      {
+        "id": "distributed_storage_protects_data",
+        "title": "How does the distributed storage protect my data?",
+        "summary": "Distributed storage divides your sensitive information into two secret shares held by the model owner and the trusted third party. Each share is individually encrypted, so neither party can read or reconstruct your data on its own. Even if one party were compromised, the encrypted secret share reveals nothing, keeping your sensitive information protected.",
+        "tags": ["distributed storage", "data protection", "secret sharing"],
+        "visible": true,
+        "parentId": "Data_risks_and_protection",
+        "suggestedQuestion": "How does the distributed storage protect my data?"
+      },
+      {
+        "id": "secret_shares_definition",
+        "title": "What are the secret shares?",
+        "summary": "A secret share is one half of a split piece of information that reveals nothing on its own. For example: suppose your gender is recorded as the number 1. The system picks a random number — say, 0.7 — and creates two shares: 0.7 and 0.3, which add up to 1. One share goes to the model owner, the other to the trusted third party. Neither share reveals your gender alone. The two are only ever combined inside the secure MPC process, solely for computing fairness statistics — and even then, no person ever sees the result: the algorithm uses it and immediately discards it.",
+        "tags": ["secret sharing", "data protection", "privacy", "mpc"],
+        "visible": true,
+        "parentId": "distributed_storage_protects_data",
+        "suggestedQuestion": "What are the secret shares?"
+      },
+      {
+        "id": "mpc_definition",
+        "title": "What is secure multi-party computation (MPC)?",
+        "summary": "MPC is a mathematical method that lets two or more parties jointly calculate a result without any of them revealing their own private data to the others. Each party learns the final answer, but nobody learns anyone else's input.",
+        "tags": ["mpc", "multi-party computation", "cryptography", "privacy","data protection"],
+        "visible": true,
+        "parentId": "Data_risks_and_protection",
+        "suggestedQuestion": "What is secure multi-party computation (MPC)?"
+      },
+      {
+        "id": "mpc_protects_data",
+        "title": "How does secure multi-party computation (MPC) protect my data?",
+        "summary": "The key insight is that the model owner and the trusted third party never need to see your actual data to compute fairness statistics. Each party runs calculations only on their own scrambled piece. The MPC process then combines only the outputs of those separate calculations into a final result. It is like two people each counting the people in half a room, then adding their totals — without either person ever entering the other half. Your sensitive information is never reassembled in one place at any point.",
+        "tags": ["mpc", "data protection", "privacy", "multi-party computation", "fairness"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "How does secure multi-party computation (MPC) protect my data?"
+      },
+      {
+        "id": "mpc_example_fairness_monitoring",
+        "title": "Can you give me an example of secure multi-party computation (MPC) for fairness monitoring?",
+        "summary": "Here is a concrete example using gender. To work with gender mathematically, the system assigns it a number — say, 1 for woman and 0 for man. If you are a woman, your value is 1. This value is immediately split into two random-looking pieces: for example, 0.7 goes to the model owner and 0.3 goes to the trusted third party ([Anonymized Institution B]). Neither piece looks like anything meaningful on its own.\n\nWhen researchers want to calculate a fairness metric — such as how many women appear among the top-ranked candidates — the two parties run a computation together using only their own pieces. The result comes out correctly, as if the original value had been used. But neither party ever saw the value 1 directly. They only ever learn the final, aggregated fairness result — never your individual sensitive attribute.",
+        "tags": ["mpc", "fairness", "privacy", "mpc example", "multi-party computation"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "Can you give me an example of secure multi-party computation (MPC) for fairness monitoring?"
+      },
+      {
+        "id": "mpc_residual_risks",
+        "title": "What are the residual risks of MPC?",
+        "summary": "MPC substantially reduces privacy risks, but no system is entirely without risk. The main remaining risk is this: if both the model owner and the trusted third party were compromised at the same time, or if they chose to work together against the rules, they could in theory combine their pieces to reveal your sensitive attributes. In practice, this is extremely unlikely — the two parties are independent organizations, their pieces are stored in separate locations, and the protocol never combines them outside the secure computation.",
+        "tags": ["mpc", "residual risk"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "What are the residual risks of MPC?"
+     },
+     {
+      "id": "mpc_importance",
+      "title": "Why is secure multi-party computation (MPC) important?",
+      "summary": "MPC is a technology that protects your data from theft and misuse while it is actively being analyzed — for a purpose you have consented to. It works alongside other privacy protections like encryption, which keep your data safe while it is stored or being transferred from one system to another.",
+      "tags": ["mpc", "mpc importance"],
+      "visible": true,
+      "parentId": "mpc_definition",
+      "suggestedQuestion": "Why is secure multi-party computation (MPC) important?"
+      },
+      {
+        "id": "mpc_technical_overview",
+        "title": "How does multi-party computation work technically?",
+        "summary": "Your data is split between two independent servers using advanced mathematics — a process that ensures each fragment looks like random data to the organization holding it. One server is operated by the model owner (the organization running the hiring system being studied), and the other by the trusted third party, [Anonymized Institution B].\n\nTo learn anything about your data — or to misuse it — both servers would have to be compromised at the same time, by the same attacker. Because these servers are run by independent organizations in separate locations, this is extraordinarily difficult, even for sophisticated attackers.\n\nThis is the core promise of MPC: no single organization is trusted with your data alone. Both are jointly responsible for its safety, and neither can act on it without the other.",
+        "tags": ["mpc", "multi-party computation", "secret sharing", "mpc technical"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "How does multi-party computation work technically?"
+      },
+      {
+        "id": "mpc_threats",
+        "title": "What kinds of threats does multi-party computation protect against?",
+        "summary": "MPC protects your data against two kinds of threat.\n\nFirst, data theft by hackers: because your data is split across two independent servers, a hacker would need to break into both at exactly the same time to learn anything about you. Compromising just one server yields nothing useful.\n\nSecond, internal misuse: the two servers monitor each other through the protocol. This means that even if the operators of one server decided to misuse your data — for a purpose you did not consent to — they could not do so on their own. Any use of your data requires both servers to cooperate, so neither can act alone.",
+        "tags": ["mpc", "multi-party computation", "threats", "data security", "internal misuse", "data theft"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "What kinds of threats does multi-party computation protect against?"
+      },
+      {
+        "id": "mpc_vs_encryption",
+        "title": "How does multi-party computation differ from encryption?",
+        "summary": "MPC and encryption complement each other — they protect your data at different moments and against different threats.\n\nEncryption keeps your data safe while it is stored or being transferred from one system to another. MPC keeps it safe while it is actively being analyzed — the window that encryption alone does not cover.\n\nMPC also prevents internal misuse: because both servers must cooperate to use your data, neither can use it for a purpose you did not consent to. Encryption cannot provide this guarantee.\n\nFinally, encryption can in principle be broken by compromising a single server that holds the decryption key-the secret code that unlocks the encrypted data-. Breaking MPC requires compromising both servers simultaneously — which is far harder to achieve.",
+        "tags": ["mpc vs encryption", "mpc", "encryption", "internal misuse"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "How does multi-party computation differ from encryption?"
+      },
+      {
+        "id": "mpc_not_widely_used",
+        "title": "If multi-party computation has all these benefits, why is it not used widely?",
+        "summary": "Compared to ordinary privacy technologies like encryption, MPC is way more costly -- running it requires more powerful servers, more network bandwidth, more energy. Hence, MPC is used only when the data to be protected is extremely sensitive and private --- which is exactly why we use MPC to protect your data.",
+        "tags": ["mpc", "adoption", "barriers", "cost", "deployment"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "If multi-party computation has all these benefits, why is it not used widely?"
+      },
+      {
+        "id": "mpc_read_more",
+        "title": "Where can I read more about multi-party computation?",
+        "summary": "Wikipedia is an excellent starting point:\nhttps://en.wikipedia.org/wiki/Secure_multi-party_computation",
+        "tags": ["mpc", "resources", "read more", "further reading"],
+        "visible": true,
+        "parentId": "mpc_definition",
+        "suggestedQuestion": "Where can I read more about multi-party computation?"
+      }
+]
