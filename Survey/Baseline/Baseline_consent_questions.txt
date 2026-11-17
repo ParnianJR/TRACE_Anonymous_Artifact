@@ -1,0 +1,25 @@
+TRACE study: donation decision and confidence (Baseline condition)
+Exported from the Qualtrics survey definition (.qsf). Question wording is reproduced as shown to participants;
+this survey contains no identifying details. Numbers in parentheses after answer
+options are the values recorded in the data.
+
+========================================================================
+BLOCK: Default Question Block
+========================================================================
+
+[DD_decision] (single choice)
+Did you decide to donate your personal data and CV?
+  - Yes (1)
+  - No (2)
+
+[DD_confidence] (single choice)
+How confident are you in your data donation decision?
+  - Not confident at all (1)
+  - Slightly confident (2)
+  - Somewhat confident (3)
+  - Moderately confident (4)
+  - Quite confident (5)
+  - Very confident (6)
+  - Extremely confident (7)
+
+[Embedded data recorded from the survey link: PROLIFIC_PID]
