@@ -10,6 +10,7 @@ Information Seeking in Informed Consent*. It has been anonymized for review.
 | `Knowledge-Base/` | The knowledge base used for both the hierarchical overview and the chatbot. |
 | `Introductory-material/` | Screenshots of the introductory material shown to participants before they interacted with their assigned system. |
 | `Chatbot-system-prompt/` | The prompt given to the chatbot. |
+| `Surveys` | survey questions presented to the participants |
 
 ## Anonymization
 
