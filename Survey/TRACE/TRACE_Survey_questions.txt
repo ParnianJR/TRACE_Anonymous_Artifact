@@ -1,0 +1,462 @@
+TRACE study: post-interaction survey (TRACE conditions)
+Exported from the Qualtrics survey definition (.qsf). Question wording is reproduced as shown to participants;
+identifying details on the welcome page are replaced with placeholders. Numbers in parentheses after answer
+options are the values recorded in the data.
+
+[Embedded data recorded from the survey link: PROLIFIC_PID]
+
+========================================================================
+BLOCK: First Page
+========================================================================
+
+[Welcome page] (text/instructions)
+Thank you for participating in our study!
+
+Important clarification: You do not need to upload your CV. The purpose of this study is to understand how people seek and process information when making data donation decisions, not to collect actual data donations. Your decision in the system was authentic and helps us understand consent processes, but no real data donation will occur.
+
+Data collection: Your interaction logs with the system (including the questions you asked, information you viewed, and time spent) have been saved and will be used for research analysis purposes. These logs help us understand how people explore information during consent processes.
+
+Regarding your compensation: Please note that Prolific payment is conditional on completing the full survey and meeting our data quality criteria (including attention check questions). If you did not complete all parts of the study or did not meet these criteria, you may not be eligible for payment. If you believe there has been an error, please contact us at the address below.
+
+In this survey, we would like to learn about your interaction experience with the system and the factors that influenced your decision.
+
+This study is conducted by researchers from [Anonymized Research Group] at [Anonymized Institution B]. If you have any questions or concerns about this study, please contact [Anonymized Author] at [anonymized contact email].
+
+[Q45] (single choice, required)
+Given the information above, do you still consent to continue the study?
+  - Yes (1)
+  - No (2)
+
+========================================================================
+BRANCH: If Q45: No is selected
+  -> survey ends (participant redirected to Prolific)
+
+========================================================================
+BLOCK: Demographics
+========================================================================
+
+[Q70] (text/instructions)
+Please tell us a little bit about yourself.
+
+[age] (single choice, required)
+What is your age?
+  - Under 18 (1)
+  - 18 - 24 (2)
+  - 25 - 34 (3)
+  - 35 - 44 (4)
+  - 45 - 54 (5)
+  - 55 - 64 (6)
+  - 65 or older (7)
+
+[gender] (single choice, required)
+What is your gender?
+  - Male (1)
+  - Female (2)
+  - Non-binary (3)
+  - Prefer not to say (4)
+  - Other (5)
+
+[ethnicity] (multiple choice, required)
+What is your ethnicity? (select all that apply)
+  - White (e.g. European, Middle Eastern, North African) (1)
+  - Black (e.g. African, Afro-Caribbean) (2)
+  - Asian (e.g. South Asian, East Asian, Southern Asian) (3)
+  - Mixed/ Multiple ethnic groups (4)
+  - Prefer not to say (5)
+  - Other (6)
+
+[education_level] (single choice, required)
+What is your highest education level?
+  - Basic education (no formal education or primary education) (1)
+  - Secondary education (lower or upper secondary education, including vocational or technical training) (2)
+  - University education (Bachelor’s degree, Master’s degree, Doctorate/PhD, or equivalent) (3)
+  - Other (4)
+
+[donation_participate] (single choice, required)
+How many times have you participated in data donations for research or social good?
+  - Never (1)
+  - Once (2)
+  - 2-3 times (3)
+  - 4-5 times (4)
+  - More than 5 times (5)
+
+[general_dd_willing] (single choice, required)
+How willing are you to donate your personal data for research or other purposes?
+  - Not at all willing (1)
+  - Slightly willing (2)
+  - Somewhat willing (3)
+  - Moderately willing (4)
+  - Very willing (5)
+  - Highly willing (6)
+  - Extremely willing (7)
+
+[active_privacy_safe] (single choice, required)
+How often do you take active measures to safeguard your
+personal information online?
+  - Not at all (1)
+  - To a very small extent (2)
+  - To a small extent (3)
+  - To a moderate extent (4)
+  - To a considerable extent (5)
+  - To a large extent (6)
+  - To a great extent (7)
+
+========================================================================
+BLOCK: Percieved Understanding
+========================================================================
+
+[Q10] (text/instructions)
+Now we'd like to understand how well you were able to learn about the study through your exploration.
+
+[Q11] (single choice, required)
+How well do you think you understood the information you explored through the system?
+  - Not well at all (1)
+  - Not very well (2)
+  - Slightly well (3)
+  - Moderately well (4)
+  - Quite well (5)
+  - Very well (6)
+  - Extremely well (7)
+
+[Q12] (single choice, required)
+How confident are you in your understanding of the aspects that mattered most to your decision?
+  - Not at all confident (1)
+  - A little confident (2)
+  - Somewhat confident (3)
+  - Moderately confident (4)
+  - Quite confident (5)
+  - Very confident (6)
+  - Extremely confident (7)
+
+[Q14] (matrix, required)
+Please rate your understanding of the following aspects :
+  Statements:
+    * Privacy risks of sharing my data
+    * How my data will be protected (encryption, MPC, TTP, etc.)
+    * Benefits of data donation for fairness monitoring
+    * How fairness monitoring works
+    * How exactly my personal data will be used if I donate it
+    * Who has access to my data and when
+  Scale:
+    Do not understand at all (1)
+    Understand very slightly (2)
+    Understand slightly (3)
+    Understand moderately (4)
+    Understand quite well (5)
+    Understand very well (6)
+    Understand completely (7)
+    Did not explore (8)
+
+[Q48] (matrix, required)
+How interested were you to understand the following aspects?
+  Statements:
+    * Privacy risks of sharing my data
+    * How my data will be protected (encryption, MPC, TTP, etc.)
+    * Benefits of data donation for fairness monitoring
+    * How fairness monitoring works
+    * How exactly my personal data will be used if I donate it
+    * Who has access to my data and when
+  Scale:
+    Not at all interested (1)
+    Slightly interested (2)
+    Somewhat interested (3)
+    Moderately interested (4)
+    Quite interested (5)
+    Very interested (6)
+    Extremely interested (7)
+
+[Q15] (single choice, required)
+Even after anonymization, there is still a small risk that your data could be combined with external information to potentially identify you.
+  Shown only if:
+    If Q48: Privacy risks of sharing my data - Quite interested is selected
+    Or Q48: Privacy risks of sharing my data - Very interested is selected
+    Or Q48: Privacy risks of sharing my data - Extremely interested is selected
+  - True (1)
+  - False (2)
+
+[Q88] (single choice, required)
+Your sensitive personal information is split into secret shares and stored separately by two independent parties, so that neither party can read your data alone.
+  Shown only if:
+    If Q48: How my data will be protected (encryption, MPC, TTP, etc.) - Quite interested is selected
+    Or Q48: How my data will be protected (encryption, MPC, TTP, etc.) - Extremely interested is selected
+    Or Q48: How my data will be protected (encryption, MPC, TTP, etc.) - Very interested is selected
+  - True (1)
+  - False (2)
+
+[Q89] (single choice, required)
+The main benefit of donating your data is that it helps detect whether automated hiring systems treat different groups fairly.
+  Shown only if:
+    If Q48: Benefits of data donation for fairness monitoring - Quite interested is selected
+    Or Q48: Benefits of data donation for fairness monitoring - Very interested is selected
+    Or Q48: Benefits of data donation for fairness monitoring - Extremely interested is selected
+  - True (1)
+  - False (2)
+
+[Q13] (single choice, required)
+Fairness monitoring evaluates whether different demographic groups are treated similarly in the hiring process.
+  Shown only if:
+    If Q48: How fairness monitoring works - Quite interested is selected
+    Or Q48: How fairness monitoring works - Very interested is selected
+    Or Q48: How fairness monitoring works - Extremely interested is selected
+  - True (1)
+  - False (2)
+
+[evalq_data_handling] (single choice, required)
+After you donate your data, it is immediately combined with other participants' data and analyzed by researchers in its raw form.
+  Shown only if:
+    If Q48: How exactly my personal data will be used if I donate it - Quite interested is selected
+    Or Q48: How exactly my personal data will be used if I donate it - Very interested is selected
+    Or Q48: How exactly my personal data will be used if I donate it - Extremely interested is selected
+  - True (1)
+  - False (2)
+
+[Q16] (single choice, required)
+The primary research team at the university can access your raw sensitive data whenever needed for the study.
+  Shown only if:
+    If Q48: Who has access to my data and when - Quite interested is selected
+    Or Q48: Who has access to my data and when - Very interested is selected
+    Or Q48: Who has access to my data and when - Extremely interested is selected
+  - True (1)
+  - False (2)
+
+[Q47] (matrix, required)
+Before participating in this study, how familiar were you with the following topics?
+  Statements:
+    * Fairness monitoring systems for detecting discrimination
+    * The role of Automated Hiring Systems (AHS) in recruitment and job applications
+    * Potential risks and consequences of sharing personal information online
+    * Data collection and protection practices in daily digital services
+    * Privacy technologies for secure data processing (e.g., encryption, anonymization, or MPC)
+    * Data protection regulations(e.g., GDPR)
+  Scale:
+    Not at all familiar (1)
+    Slightly familiar (2)
+    Somewhat familiar (3)
+    Moderately familiar (4)
+    Quite familiar (5)
+    Very familiar (6)
+    Extremely familiar (7)
+
+[Q66] (hidden page timer: first click, last click, page submit, click count)
+
+========================================================================
+BLOCK: Meaning-making of Information
+========================================================================
+
+[Q72] (text/instructions)
+Now let's learn about your perceptions of the data donation and the information you received.
+
+[Q32] (single choice, required)
+How beneficial do you think donating your data would be for fairness monitoring in Automated Hiring Systems?
+  - Not beneficial at all (1)
+  - Very slightly beneficial (2)
+  - Slightly beneficial (3)
+  - Moderately beneficial (4)
+  - Quite beneficial (5)
+  - Very beneficial (6)
+  - Extremely beneficial (7)
+
+[Q62] (single choice, required)
+How risky do you think donating your data would be to your
+privacy?
+  - Not risky at all (1)
+  - Very slightly risky (2)
+  - Slightly risky (3)
+  - Moderately risky (4)
+  - Quite risky (5)
+  - Very risky (6)
+  - Extremely risky (7)
+
+[Q40] (matrix, required)
+Please indicate how much you agree or disagree with the following statements about the information you learned from system:
+  Statements:
+    * I felt I had enough information to make my decision
+    * The system helped me identify what I still needed to know
+    * I reached a natural endpoint in my exploration
+    * I explored everything I wanted to know about
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q67] (hidden page timer: first click, last click, page submit, click count)
+
+========================================================================
+BLOCK: Block 5
+========================================================================
+
+[Q21] (text/instructions)
+We would now like to learn about how you interacted with the system.
+
+[Q22] (matrix, required)
+Please indicate how much you agree or disagree with the following statements about your exploration:
+  Statements:
+    * I explored many different topics broadly rather than focusing deeply on a few.
+    * I explored topics based on what caught my attention rather than going through them in order.
+    * I deep-dived into specific topics that personally interested or concerned me rather than covering all topics equally.
+    * This is an attention check question. Please select "Agree".
+    * I only explored topics I was not familiar with before.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q25] (matrix, required)
+Please indicate your level of agreement with the following statements.
+  Statements:
+    * I explored questions I wouldn't have thought of on my own
+    * The information presentation felt clear and easy to follow.
+    * I was absorbed in the interaction.
+    * I found the interaction enjoyable.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q44] (matrix, required)
+Please indicate your level of agreement with the following statements.
+  Statements:
+    * I felt that the consent system respected my autonomy in making my own decision.
+    * The consent system did not pressure me toward any particular choice.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q28] (open text, required)
+Please describe the process you went through to gather information before making your decision. For example: What did you explore first? What influenced your decision to explore certain topics more than others?
+  [free-text response]
+
+[Q29] (open text, required)
+Were there topics you chose NOT to explore? If yes, why did you skip them?
+  [free-text response]
+
+========================================================================
+BRANCH: If Q22: This is an attention check question. Please select "Agree". - Agree is not selected
+  -> survey ends (participant redirected to Prolific)
+
+========================================================================
+BLOCK: Interaction with system
+========================================================================
+
+[Q41] (matrix, required)
+Please indicate your agreement regarding the ease of use of the system:
+  Statements:
+    * The system was easy to use
+    * It was easy for me to find the information I was looking for.
+    * Interacting with the system required little effort.
+    * The way information was presented was clear and understandable.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q49] (matrix, required)
+Please indicate your agreement regarding the perceived usefulness of information learned :
+  Statements:
+    * The consent system helped me better understand the protocol.
+    * The information provided by the consent system was helpful for my decision-making.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q42] (matrix, required)
+Please indicate your level of agreement with the following statements about the information provided by the system.
+  Statements:
+    * I trust the system to provide accurate and reliable information
+    * I believe the information provided was accurate.
+    * The information provided appeared unbiased.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q43] (matrix, required)
+Please indicate your level of agreement with the following statements about the system’s tone.
+  Statements:
+    * The information was presented in a neutral and balanced way.
+    * The system appeared to prioritize the interests of the data collectors.
+    * The system appeared to prioritize the interests of participants.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q90] (single choice, required)
+Thinking only about the two parts of the consent system you just used, the chat and the "Study Overview" panel (which was next to the chatbot), which statement best describes your view?
+  - The chatbot alone would have been sufficient for me to make my decision (1)
+  - The "Study Overview" panel alone was sufficient for me to make my decision (2)
+  - Both the chatbot and "Study Overview" panel were necessary; the combination added value (3)
+  - Neither source was sufficient; I needed additional information (4)
+
+[Q46] (open text, required)
+Please briefly explain why you selected this option for the previous question. If your answer refers to information you read before seeing the chatbot, please say so.
+  [free-text response]
+
+[Q35] (matrix, required)
+Please indicate your agreement regarding your satisfaction with the system:
+  Statements:
+    * Overall, I was satisfied with the system.
+    * I liked using the consent system to learn about the protocol.
+    * Using the consent system to obtain information was a good idea.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q36] (matrix, required)
+Please indicate your agreement with the following statements about your future use and recommendation intentions:
+  Statements:
+    * I would use a consent system like this again when I need to understand similar protocols.
+    * I would recommend this type of consent system to others.
+  Scale:
+    Strongly disagree (1)
+    Disagree (2)
+    Somewhat disagree (3)
+    Neither agree nor disagree (4)
+    Somewhat agree (5)
+    Agree (6)
+    Strongly agree (7)
+
+[Q37] (open text)
+Do you have any other feedback about your experience with the system? (Optional)
+  [free-text response]
+
+[Q68] (hidden page timer: first click, last click, page submit, click count)
